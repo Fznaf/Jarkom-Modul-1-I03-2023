@@ -28,11 +28,42 @@ d. And for ACK number, we get 258040696
 ![Screenshot 2023-09-18 at 20 56 19](https://github.com/Fznaf/Jarkom-Modul-1-I03-2023/assets/59758342/e336b36d-2e7a-412e-beb8-fae36d56587e)
 
 # 2.
+First, we need to filter only HTTP response since this is a web server. We can use "http" as the filter
+
+![Screenshot 2023-09-18 at 20 26 31](https://github.com/Fznaf/Jarkom-Modul-1-I03-2023/assets/59758342/680d7696-9405-4a0d-abf8-2b0e0f4261ae)
+
+Then, we need to look at the response from the server. In the screenshot, we can see 200 OK response. Looking deeper, we can find the name of the server "gunicorn"
+
+<img width="707" alt="Screenshot 2023-09-18 at 20 27 30" src="https://github.com/Fznaf/Jarkom-Modul-1-I03-2023/assets/59758342/4fdb398f-a401-4b38-b3d2-d7f5ddd59346">
+
+![Screenshot 2023-09-18 at 20 52 38](https://github.com/Fznaf/Jarkom-Modul-1-I03-2023/assets/59758342/9638fbe3-9fcf-4ef5-ac46-f860b91ef5a8)
+
 # 3.
+
+a. To find the number of packets with destination 239.255.255.250 and port 3702, we can use the filter "ip.dst == 239.255.255.250 and udp.port == 3702". We can see there's 21 packets
+
+![Screenshot 2023-09-18 at 20 30 13](https://github.com/Fznaf/Jarkom-Modul-1-I03-2023/assets/59758342/53afb33f-0476-4453-9a6c-05188282fb42)
+
+b. Port 3702 is a port for the UDP protocol
+
+![Screenshot 2023-09-18 at 20 57 39](https://github.com/Fznaf/Jarkom-Modul-1-I03-2023/assets/59758342/173708cb-97a5-4a91-853d-2aed0412dca4)
+
 # 4.
+
+We can directly go to packet no. 130, and check the detail panel. There we can find the header checksum, which is "0x18e5"
+
+<img width="718" alt="Screenshot 2023-09-18 at 20 45 25" src="https://github.com/Fznaf/Jarkom-Modul-1-I03-2023/assets/59758342/968d1f7e-a3e2-4cfa-aaa3-e3937aa68308">
+
+![Screenshot 2023-09-18 at 20 53 26](https://github.com/Fznaf/Jarkom-Modul-1-I03-2023/assets/59758342/24cbddc7-c4e2-41fd-878e-14c6a510d910)
+
 # 5.
+
 # 6.
+
 # 7.
+
 # 8.
+
 # 9.
+
 # 10.
