@@ -74,8 +74,35 @@ The password is encoded in Base64, decoding it yields "5implePas5word". After un
 
 # 7.
 
+To find packets that go to ip 184.87.193.88, we can use the filter "ip.dst == 184.87.193.88"
+
+    //image
+
+The number of packets displayed is 6, put it into the netcat and then we will get the flag.
+
+    //image
+
 # 8.
+
+The question asked us to make a query filter that will display all the packets that are going to port 80.
+The query would be ```tcp.portdst == 80 || udp.portdst == 80```
+
+Our team did not manage to answer this question on the practicum timeline because we forget to put "dst" on "dstport"
 
 # 9.
 
+To answer question number 9, similar to number 8, we  just need to make a query filter that will display only the packets that came from the address 10.51.40.1 but not going to address 10.39.55.34.
+
+The query that will fulfill the requirement would be ```ip.src == 10.51.40.1 && ip.dst != 10.39.55.34```
+
+Unfortunately we also didn't manage to solve this in practicum because the answer checks for literal string and our team missed the correct formatting.
+
 # 10.
+
+For number 10, we will first filter the package to only display the ones that has TELNET protocol using ```telnet```
+
+//image
+
+Then, since TELNET is unencrypted, we can check for each packet to see the credentials. In this case, packet no. 81 contains the correct credentials, which is "dhafin:kesayangannyak0k0"
+
+//image
