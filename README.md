@@ -28,11 +28,28 @@ d. And for ACK number, we get 258040696
 ![Screenshot 2023-09-18 at 20 56 19](https://github.com/Fznaf/Jarkom-Modul-1-I03-2023/assets/59758342/e336b36d-2e7a-412e-beb8-fae36d56587e)
 
 # 2.
+First, we need to filter only HTTP response since this is a web server. We can use "http" as the filter
+
+![Screenshot 2023-09-18 at 20 26 31](https://github.com/Fznaf/Jarkom-Modul-1-I03-2023/assets/59758342/680d7696-9405-4a0d-abf8-2b0e0f4261ae)
+
+Then, we need to look at the response from the server. In the screenshot, we can see 200 OK response. Looking deeper, we can find the name of the server "gunicorn"
+
+<img width="707" alt="Screenshot 2023-09-18 at 20 27 30" src="https://github.com/Fznaf/Jarkom-Modul-1-I03-2023/assets/59758342/4fdb398f-a401-4b38-b3d2-d7f5ddd59346">
+
+![Screenshot 2023-09-18 at 20 52 38](https://github.com/Fznaf/Jarkom-Modul-1-I03-2023/assets/59758342/9638fbe3-9fcf-4ef5-ac46-f860b91ef5a8)
+
 # 3.
+
 # 4.
+
 # 5.
+
 # 6.
+
 # 7.
+
 # 8.
+
 # 9.
+
 # 10.
