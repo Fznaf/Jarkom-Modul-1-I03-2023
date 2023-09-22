@@ -58,6 +58,18 @@ We can directly go to packet no. 130, and check the detail panel. There we can f
 
 # 5.
 
+There are zip file provided with a password, the password might be available in the capture file, so we will check it first.
+
+![Screenshot 2023-09-18 at 21 23 45](https://github.com/Fznaf/Jarkom-Modul-1-I03-2023/assets/59758342/d1581ddd-19c0-4089-9017-b25ddf0edaa4)
+
+The SMTP file isn't encrypted, so we can take a look at the content. One of them contains email with the password
+
+<img width="691" alt="Screenshot 2023-09-18 at 21 24 22" src="https://github.com/Fznaf/Jarkom-Modul-1-I03-2023/assets/59758342/fdefd32a-37f7-4c4c-b0c0-4ce1425ce3a0">
+
+The password is encoded in Base64, decoding it yields "5implePas5word". After unlocking the zip file, we can connect to the netcat server and insert the answer to get the flag
+
+<img width="718" alt="pasted image 0" src="https://github.com/Fznaf/Jarkom-Modul-1-I03-2023/assets/59758342/e352675e-c806-43f6-ada3-32862cbfe98e">
+
 # 6.
 
 # 7.
