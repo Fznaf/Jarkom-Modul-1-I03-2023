@@ -40,6 +40,15 @@ Then, we need to look at the response from the server. In the screenshot, we can
 
 # 3.
 
+a. To find the number of packets with destination 239.255.255.250 and port 3702, we can use the filter "ip.dst == 239.255.255.250 and udp.port == 3702". We can see there's 21 packets
+
+![Screenshot 2023-09-18 at 20 30 13](https://github.com/Fznaf/Jarkom-Modul-1-I03-2023/assets/59758342/53afb33f-0476-4453-9a6c-05188282fb42)
+
+b. Port 3702 is a port for the UDP protocol
+
+![Screenshot 2023-09-18 at 20 57 39](https://github.com/Fznaf/Jarkom-Modul-1-I03-2023/assets/59758342/173708cb-97a5-4a91-853d-2aed0412dca4)
+
+
 # 4.
 
 # 5.
