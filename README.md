@@ -72,15 +72,21 @@ The password is encoded in Base64, decoding it yields "5implePas5word". After un
 
 # 6.
 
+We're being told that "SOURCE ADDRESS 7812" is invalid. Source address here means the IP source and 7812 means we need to take a look at packet no. 7812. The clue a1 e5 u21 means that we need to convert the number into letter (1=a, 2=b, ..., 26=z).
+
+<img width="566" alt="Screenshot 2023-09-22 at 19 23 45" src="https://github.com/Fznaf/Jarkom-Modul-1-I03-2023/assets/59758342/2ac16153-a58a-46e7-9c85-c192a4c753b7">
+
+Converting `104.18.14.101`, we get `JDRNJA` and we can get the flag
+
 # 7.
 
 To find packets that go to ip 184.87.193.88, we can use the filter "ip.dst == 184.87.193.88"
 
-    //image
+![Screenshot 2023-09-18 at 20 32 23](https://github.com/Fznaf/Jarkom-Modul-1-I03-2023/assets/59758342/cd36a1ff-cf76-471f-a413-590545fce72b)
 
 The number of packets displayed is 6, put it into the netcat and then we will get the flag.
 
-    //image
+<img width="620" alt="Screenshot 2023-09-18 at 20 58 37" src="https://github.com/Fznaf/Jarkom-Modul-1-I03-2023/assets/59758342/bc5be9d5-376e-4412-8b4d-0ff7a18cdb98">
 
 # 8.
 
@@ -101,8 +107,10 @@ Unfortunately we also didn't manage to solve this in practicum because the answe
 
 For number 10, we will first filter the package to only display the ones that has TELNET protocol using ```telnet```
 
-//image
+![Screenshot 2023-09-18 at 20 33 52](https://github.com/Fznaf/Jarkom-Modul-1-I03-2023/assets/59758342/8ef70170-aa0a-4447-97d7-ced5afd5c855)
 
-Then, since TELNET is unencrypted, we can check for each packet to see the credentials. In this case, packet no. 81 contains the correct credentials, which is "dhafin:kesayangannyak0k0"
+Then, since TELNET is unencrypted, we can check for each packet to see the credentials. In this case, packet no. 81 contains the correct credentials, which is `dhafin:kesayangannyak0k0`
 
-//image
+<img width="718" alt="Screenshot 2023-09-18 at 20 35 19" src="https://github.com/Fznaf/Jarkom-Modul-1-I03-2023/assets/59758342/57976bb0-90de-4cbd-9e12-fbe18d9ee5f2">
+
+![Screenshot 2023-09-18 at 20 52 22](https://github.com/Fznaf/Jarkom-Modul-1-I03-2023/assets/59758342/e7a666c6-9769-477d-9030-2379c9e56623)
