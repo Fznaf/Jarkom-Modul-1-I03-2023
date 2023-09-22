@@ -114,3 +114,9 @@ Then, since TELNET is unencrypted, we can check for each packet to see the crede
 <img width="718" alt="Screenshot 2023-09-18 at 20 35 19" src="https://github.com/Fznaf/Jarkom-Modul-1-I03-2023/assets/59758342/57976bb0-90de-4cbd-9e12-fbe18d9ee5f2">
 
 ![Screenshot 2023-09-18 at 20 52 22](https://github.com/Fznaf/Jarkom-Modul-1-I03-2023/assets/59758342/e7a666c6-9769-477d-9030-2379c9e56623)
+
+# Revision
+- We couldn't solve problem 6
+
+# Issues
+- We know the query for no. 8 and 9, but we couldn't get the flag as the answer on the server may be different to ours
