@@ -48,8 +48,13 @@ b. Port 3702 is a port for the UDP protocol
 
 ![Screenshot 2023-09-18 at 20 57 39](https://github.com/Fznaf/Jarkom-Modul-1-I03-2023/assets/59758342/173708cb-97a5-4a91-853d-2aed0412dca4)
 
-
 # 4.
+
+We can directly go to packet no. 130, and check the detail panel. There we can find the header checksum, which is "0x18e5"
+
+<img width="718" alt="Screenshot 2023-09-18 at 20 45 25" src="https://github.com/Fznaf/Jarkom-Modul-1-I03-2023/assets/59758342/968d1f7e-a3e2-4cfa-aaa3-e3937aa68308">
+
+![Screenshot 2023-09-18 at 20 53 26](https://github.com/Fznaf/Jarkom-Modul-1-I03-2023/assets/59758342/24cbddc7-c4e2-41fd-878e-14c6a510d910)
 
 # 5.
 
